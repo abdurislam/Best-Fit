@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 text-white px-6 py-3 rounded-lg font-medium 
+           hover:bg-primary-600 transition-colors disabled:opacity-50 
+           disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-100 text-gray-800 px-6 py-3 rounded-lg font-medium 
+           hover:bg-gray-200 transition-colors border border-gray-200;
+  }
+
+  .btn-danger {
+    @apply bg-red-500 text-white px-4 py-2 rounded-lg font-medium 
+           hover:bg-red-600 transition-colors;
+  }
+
+  .input {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg 
+           focus:outline-none focus:ring-2 focus:ring-primary-500 
+           focus:border-transparent transition-all;
+  }
+
+  select.input {
+    @apply pr-10 appearance-none bg-no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.75rem center;
+    background-size: 1.25rem 1.25rem;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 
+           overflow-hidden transition-all hover:shadow-md;
+  }
+}

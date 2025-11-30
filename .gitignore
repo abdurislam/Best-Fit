@@ -41,8 +41,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Uploads (user uploaded images)
-uploads/*
-!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
 
 # Testing
 coverage/
