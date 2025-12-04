@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Tailwind-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
 </p>
 
-# 👔 Best-Fit
+# Best-Fit
 
 **Smart Wardrobe Manager with ML-Powered Color Analysis**
 
@@ -14,21 +14,21 @@ Best-Fit is a modern wardrobe management application that uses machine learning 
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔐 **Secure Authentication** | Firebase Auth with email/password and Google OAuth |
-| 📸 **Smart Uploads** | Drag-and-drop image uploads with automatic processing |
-| 🎨 **ML Color Extraction** | K-means clustering identifies dominant colors in each garment |
-| 👗 **Outfit Builder** | Create and save outfit combinations from your closet |
-| ✨ **AI Suggestions** | Get outfit recommendations based on color harmony & style |
-| 🌈 **Color Theory** | Complementary, analogous, triadic, and monochromatic schemes |
-| ☁️ **Cloud Sync** | Data persists across devices with Firestore |
+| **Secure Authentication** | Firebase Auth with email/password and Google OAuth |
+| **Smart Uploads** | Drag-and-drop image uploads with automatic processing |
+| **ML Color Extraction** | K-means clustering identifies dominant colors in each garment |
+| **Outfit Builder** | Create and save outfit combinations from your closet |
+| **AI Suggestions** | Get outfit recommendations based on color harmony & style |
+| **Color Theory** | Complementary, analogous, triadic, and monochromatic schemes |
+| **Cloud Sync** | Data persists across devices with Firestore |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** with TypeScript
@@ -50,7 +50,7 @@ Best-Fit is a modern wardrobe management application that uses machine learning 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -125,7 +125,7 @@ Navigate to `http://localhost:5173` in your browser.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Best-Fit/
@@ -157,7 +157,7 @@ Best-Fit/
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 ### Closet Endpoints
 
@@ -188,7 +188,7 @@ Best-Fit/
 
 ---
 
-## 🎨 Color Harmony Theory
+## Color Harmony Theory
 
 Best-Fit uses established color theory to suggest outfits:
 
@@ -201,20 +201,8 @@ Best-Fit uses established color theory to suggest outfits:
 
 ---
 
-## 🤖 Why K-Means Over LLMs?
 
-We chose dedicated ML for color extraction over general-purpose LLMs:
-
-| Factor | K-Means Clustering | Local LLM (Ollama) |
-|--------|-------------------|-------------------|
-| **Speed** | ~100ms/image | 2-5 seconds/image |
-| **Precision** | Exact RGB values | Subjective descriptions |
-| **Memory** | ~50MB | 4-16GB |
-| **Reliability** | Deterministic | Variable outputs |
-
----
-
-## 🚢 Deployment
+## Deployment
 
 ### Frontend (Vercel)
 
@@ -240,7 +228,7 @@ gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker
 
 ---
 
-## 🔒 Security
+## Security
 
 - All API endpoints require Firebase authentication
 - User data is isolated by UID in Firestore
@@ -249,13 +237,13 @@ gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [ColorThief](https://github.com/fengsp/color-thief-py) for color extraction
 - [Firebase](https://firebase.google.com) for backend services
@@ -265,5 +253,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/abdurislam">Abdur Islam</a>
+  Made by <a href="https://github.com/abdurislam">Abdur Islam</a>
 </p>
